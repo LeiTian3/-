@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo" hover-class="hclass">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+    
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="count">今天是和宝宝在一起的{{mytime}}天</text>
+    </block>
+  </view>
+  <view class = "welcome">
+  <text>欢迎来到瓜币银行</text><image src = "../../pns/-frog-face.png" style="width:40rpx;height:40rpx;"></image>
+  </view>
+  <view class="momey">
+    <text class="user-motto">当前瓜币余额：{{motto}}</text>
+    <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image>
+  </view>
+  <view class = "shuoming">
+    <text>· 瓜币可用于兑换Redeem Shop 礼品</text>
+    <text>\n</text>
+    <text>· 瓜币银行每月自动发放300瓜币</text>
+  </view>
+  <view class = "little">
+    <text>宝宝可在后台随意更改瓜币余额</text>
+    <image src = "../../pns/huaixiaoemo.png" style="width:20rpx;height:20rpx;"></image>
+    <text>改银行最终解释权归宝宝所有</text>
+  </view>
+</view>

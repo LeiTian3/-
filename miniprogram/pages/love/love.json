@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"popup": "../../components/popup/popup"},
+  "navigationBarTitleText": "最喜欢瓜瓜啦"
+}

@@ -1,0 +1,77 @@
+<!--pages/sun/sun.wxml-->
+<view class = "titile">当然是听瓜瓜的 <image src = "../../pns/qinqin.png" class = "img"></image></view>
+
+<view class = "menu">
+<text class = "100">宝宝听话券 🥰....................100 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 25' bindtap="showPopup1">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup' 
+      title='咦？确定吗' 
+      content='确定使用25瓜币兑换 宝宝听话券🥰 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error1"  
+      bind:success="_success1">
+  </popup>
+</view>
+
+
+<text class = "100">瓜瓜做主券 😤....................100 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 30' bindtap="showPopup2">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup1' 
+      title='咦？确定吗' 
+      content='确定使用30瓜币兑换 瓜瓜做主券😤 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error2"  
+      bind:success="_success2">
+  </popup>
+</view>
+
+<text class = "150">瓜瓜免责券 😎....................150 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 35'bindtap="showPopup3">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup2' 
+      title='咦？确定吗' 
+      content='确定使用35瓜币兑换 瓜瓜免责券😎 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error3"  
+      bind:success="_success3">
+  </popup>
+</view>
+
+<text class = "150">冷战和好券 🥳....................150 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 55' bindtap="showPopup4">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup3' 
+      title='咦？确定吗' 
+      content='确定使用55瓜币兑换 冷战和好券🥳 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error4"  
+      bind:success="_success4">
+  </popup>
+</view>
+
+<text class = "200">做主两天券 😍....................200 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 55' bindtap="showPopup5">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup4' 
+      title='咦？确定吗' 
+      content='确定使用55瓜币兑换 做主两天券😍 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error5"  
+      bind:success="_success5">
+  </popup>
+
+
+</view>
+</view>

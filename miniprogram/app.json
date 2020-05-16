@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/lock/lock",
+    "pages/index/index",
+    "pages/foods/foods",
+    "pages/love/love",
+    "pages/sun/sun",
+    "pages/fly/fly",
+    
+    "pages/imge/imge"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      
+      "iconPath": "pns/e634.png",
+      "selectedIconPath": "pns/e634-2.png"
+    },{
+      "pagePath": "pages/foods/foods",
+      
+      "iconPath": "pns/canju.png",
+      "selectedIconPath": "pns/canju-2.png"
+    },{
+      "pagePath": "pages/love/love",
+      
+      "iconPath": "pns/nolove.png",
+      "selectedIconPath": "pns/weibiaoti--2.png"
+    },{
+      "pagePath": "pages/sun/sun",
+      
+      "iconPath": "pns/taiyang.png",
+      "selectedIconPath": "pns/taiyang-2.png"
+    },{
+      "pagePath": "pages/fly/fly",
+      
+      "iconPath": "pns/fei.png",
+      "selectedIconPath": "pns/fei2.png"
+    }],"backgroundColor": "#DAE1EB",
+    "borderStyle": "white"
+  }
+}

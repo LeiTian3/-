@@ -1,0 +1,12 @@
+<!--pages/imge/imge.wxml-->
+
+<!-- <image src = "../../pns/IMG_6856.JPG"></image> -->
+<view class="card">
+	<text class="card-title">兑换成功</text>
+	<text class="card-date">{{time}}</text>
+	<image class='card-img' src="{{imageUrl}}"></image>
+	<text class="card-desc">{{title}}券    X 1 </text>
+	<text class="card-read arrow">截图保存</text>
+ 
+</view>
+

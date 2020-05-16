@@ -1,0 +1,8 @@
+<!--pages/lock/lock.wxml-->
+<input class="inputBox" bindinput="saveInputValue" password='{{ispassword}}' placeholder="咦？好像有奇怪的东西进来了" focus="{{focus}}" />    <!--设置输入框，password即密码形式-->
+<view class="toggle-tip" bindtap="toggleValue">      <!--绑定判断输入密码是否正确-->
+<text class="tip {{valueIsShow?'active':''}}">    {{valueIsShow?'隐藏密码':'显示密码'}}    </text>
+</view>    <!--设置条件判断，控制是否显示输入内容-->
+<!-- <button class="buttoncolor" bindtap="onEnter"></button>   跳转至首页 -->
+<button class="buttoncolor" bindtap="onEnter"><image class='btnImg' src='../../pns/qingwa.png'></image>
+    </button>

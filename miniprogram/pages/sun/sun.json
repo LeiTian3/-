@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"popup": "../../components/popup/popup"},
+  "navigationBarTitleText": "瓜瓜充电站"
+}

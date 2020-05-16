@@ -1,0 +1,44 @@
+/* pages/lock/lock.wxss */
+.inputBox{  
+  margin: auto;
+  padding-top: 10%;
+  color:#666;
+  border: none; border-bottom:2px solid #eee;outline: none;
+  width: 290px;
+  text-align: center;
+  }
+  
+ .tip { 
+  text-align: center; 
+  font-size: 30rpx; 
+  color: #ffffff;
+  }
+ 
+ .toggle-tip {    
+  margin-top: 10rpx;          
+  text-align: center;
+  }
+ 
+ .toggle-tip .tip {         
+  font-size: 22rpx;        
+  line-height: 22rpx;   
+  color: #ffffff;
+  }
+ 
+ .toggle-tip .active {    
+  color: #ffffff;
+  }
+ .buttoncolor{
+  background-color: white;
+ }
+ .buttoncolor::after { 
+  margin-top: 10%;
+  border: 0;
+  
+  
+  }
+  .btnImg {
+    width: 100rpx;
+    height: 100rpx;
+  }
+  

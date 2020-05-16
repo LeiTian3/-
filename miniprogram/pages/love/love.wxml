@@ -1,0 +1,75 @@
+<!--pages/love/love.wxml-->
+<view class = "titile">最喜欢瓜瓜啦 <image src = "../../pns/wugui.png" class = "img"></image></view>
+
+<view class = "menu">
+<text class = "20">头部按摩 💆‍♂️......................20 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 25' bindtap="showPopup1">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup' 
+      title='咦？确定吗' 
+      content='确定使用20瓜币兑换 头部按摩💆‍♂️ 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error1"  
+      bind:success="_success1">
+  </popup>
+</view>
+
+
+<text class = "30">全身按摩 💆......................30 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 25' bindtap="showPopup2">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup1' 
+      title='咦？确定吗' 
+      content='确定使用25瓜币兑换 全身按摩💆 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error1"  
+      bind:success="_success2">
+  </popup>
+</view>
+
+<text class = "15">捏背背 🤏.........................15 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 25' bindtap="showPopup3">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup2' 
+      title='咦？确定吗' 
+      content='确定使用15瓜币兑换 捏背背🤏 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error1"  
+      bind:success="_success3">
+  </popup>
+</view>
+
+<text class = "55">神神秘秘小惊喜 😋..............55 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 25' bindtap="showPopup4">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup3' 
+      title='咦？确定吗' 
+      content='确定使用55瓜币兑换 神神秘秘小惊喜😋 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error1"  
+      bind:success="_success4">
+  </popup>
+</view>
+
+<text class = "75">奇奇怪怪小惊喜 👀..............75 <image src = "../../pns/jinbi-2.png" style="width:30rpx;height:30rpx;"></image></text><text>\n</text>
+<view class='item 25' bindtap="showPopup5">
+  <image class='left' src='../../pns/liwu.png' style="width:30rpx;height:30rpx;"></image>
+  <view class='center'>Redeem</view>
+  <popup id='popup4' 
+      title='咦？确定吗' 
+      content='确定使用75瓜币兑换 奇奇怪怪小惊喜👀 吗？' 
+      btn_no='再想想' 
+      btn_ok='是的呀'
+      bind:error="_error1"  
+      bind:success="_success5">
+  </popup>
+</view>
+</view>
